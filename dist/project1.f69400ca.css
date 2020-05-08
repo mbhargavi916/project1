@@ -1,0 +1,46 @@
+.List {
+  max-width: 1000px;
+  background: white;
+  border: 1px solid;
+}
+
+body {
+  font-family: Helvetica Neue;
+  background: #f4f6f8;
+}
+
+.UserRow {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1em;
+  padding: 1em;
+}
+.UserRow .UserName {
+  margin: 0;
+}
+.UserRow .Avatar {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.UserRow .description,
+.UserRow .connection {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Button {
+  background: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 2px;
+  color: #0073b1;
+  border: 1px solid #0073b1;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=/project1.f69400ca.css.map */
